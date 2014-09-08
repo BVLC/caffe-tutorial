@@ -11,7 +11,11 @@ Demos will be done live and the audience will be able to follow along with examp
 To do so, follow the [tutorial installation instructions](/installation.html).
 
 **Check out the [tutorial guide](/tutorial) on the [tutorial edition of the Caffe site](/tutorial_index.html)** for documentation, examples, and more.
-Slides will be posted after the tutorial.
+
+**Slides**
+
+- [Caffe Tutorial, pt. 1](https://docs.google.com/presentation/d/1UeKXVgRvvxg9OUdh_UiC5G71UMscNPlvArsWER41PsU/edit#slide=id.p): the Caffe tour
+- [Caffe Tutorial, pt. 2](/eccv14-diy-pt2.pdf): deep learning for detection, fine-tuning, training analysis
 
 ## Schedule
 
@@ -54,8 +58,7 @@ There will a break for open discussion and coffee at 10:30 – 11:00.
 
 ## Materials
 
-Tutorial materials including slides, examples, and code will be made publicly available online.
-Everything will be bundled in the next Caffe release, and is published now in the dev branch of BVLC/caffe.
+Everything will be bundled in the next Caffe release, and is published now on this site and in the dev branch of BVLC/caffe.
 
 ## Organizers
 
