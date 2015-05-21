@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- MathJax -->
+    <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>
+      Caffe
+    </title>
+
+    <link rel="stylesheet" href="/stylesheets/reset.css">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <link rel="stylesheet" href="/stylesheets/pygment_trac.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-46255508-1', 'daggerfs.com');
+    ga('send', 'pageview');
+  </script>
+    <div class="wrapper">
+      <header>
+        <h1 class="header"><a href="/">Caffe Tutorial</a></h1>
+        <p class="header">
+          Deep learning framework tutorial by
+          <br>
+          <a class="header name" href="http://imaginarynumber.net">Evan Shelhamer</a>
+          <br>
+          <a class="header name" href="http://jeffdonahue.com">Jeff Donahue</a>
+          <br>
+          <a class="header name" href="http://cs.berkeley.edu/~jonlong">Jon Long</a>
+          <br>
+          <a class="header name" href="http://daggerfs.com">Yangqing Jia</a>
+          <br>
+          <a class="header name" href="http://www.cs.berkeley.edu/~rbg/">Ross Girshick</a>
+          <br>
+          and the
+          <a class="header name" href="http://bvlc.eecs.berkeley.edu/">BVLC</a>
+        </p>
+        <ul>
+          <li>
+            <a class="buttons github" href="https://github.com/BVLC/caffe">View On GitHub</a>
+          </li>
+        </ul>
+      </header>
+      <section>
+
+      <h1 id="diy-deep-learning-for-vision-br-a-hands-on-tutorial-with-caffe">DIY Deep Learning for Vision: <br /> a Hands-On Tutorial with Caffe</h1>
+
+    <p>This tutorial is designed to equip researchers and developers with the
+    tools and know-how needed to incorporate deep learning into their work. Both
+    the ideas and implementation of state-of-the-art deep learning models will
+    be presented. While deep learning and deep features have recently achieved
+    strong results in many tasks, a common framework and shared models are
+    needed to advance further research and applications and reduce the barrier
+    to entry.</p>
+    <p>To this end we present the <a
+      href="http://caffe.berkeleyvision.org">Caffe framework</a> that offers an
+    open-source library, public reference models, and working examples for deep
+    learning. Join our tour from the 1989 LeNet for digit recognition to today's
+    top ILSVRC14 vision models and beyond to detection, vision + language, and
+    segmentation models. Follow along with do-it-yourself code notebooks. While
+    focusing on vision, general techniques are covered.
+    </p>
+
+<h2 id="schedule">Schedule</h2>
+
+<strong>Check back soon for a detailed schedule!</strong>
+
+<p>This half-day afternoon tutorial is held Sunday, June 7 at 4:00 — 6:00pm.
+There will a break for open discussion and coffee at 3:30 – 4:15pm.</p>
+
+<!--
+<p><strong>Caffe Tour</strong> 9 - 10:30</p>
+
+<ul>
+  <li>Introduction: deep learning and the need for frameworks</li>
+  <li>Philosophy: expressive, fast, modular, and open</li>
+  <li>Model Anatomy: nets, layers, blobs</li>
+  <li>Forward / Backward computation</li>
+  <li>Data</li>
+  <li>Loss</li>
+  <li>Solver / model optimization</li>
+  <li>Interfaces for command line, Python, and MATLAB</li>
+</ul>
+
+<p><strong>Caffeine</strong> 10:30 - 11:00</p>
+
+<ul>
+  <li>coffee!</li>
+  <li>examples / demos</li>
+  <li>discussion</li>
+</ul>
+
+<p><strong>Fine-tuning, Model Analysis, and More</strong> 10:00 - 12:30</p>
+
+<ul>
+  <li>Fine-tuning</li>
+  <li>Model interpretation and analysis</li>
+  <li>R-CNN</li>
+  <li>tips and tricks</li>
+</ul>
+-->
+
+<h2 id="audience">Audience</h2>
+
+<p><strong>Beginners</strong>: you will be equipped with the tools and know-how to begin or improve your deep learning toolkit through talks, worked examples, and demos.</p>
+
+<p><strong>Intermediate</strong>: follow along for a walkthrough of model definition and development, framework extension, and tips and tricks in practice will be covered.</p>
+
+<p><strong>Advanced</strong>: join for discussion of modeling and optimization as well as news of the latest developments brewing in Caffe.</p>
+
+<h2 id="materials">Materials</h2>
+
+<p>Everything will be bundled in the next Caffe release.</p>
+
+<h2 id="organizers">Organizers</h2>
+
+<ul>
+  <li><strong>Evan Shelhamer</strong> <a href="https://github.com/shelhamer">@shelhamer</a>. PhD student, UC Berkeley CS.</li>
+  <li><strong>Jeff Donahue</strong> <a href="https://github.com/jeffdonahue">@jeffdonahue</a>. PhD student, UC Berkeley CS.</li>
+  <li><strong>Jon Long</strong> <a href="https://github.com/longjon">@longjon</a>. PhD student, UC Berkeley CS.</li>
+  <li><strong>Yangqing Jia</strong> <a href="https://github.com/Yangqing">@Yangqing</a>. Research Scientist, Google.</li>
+  <li><strong>Ross Girshick</strong> <a href="https://github.com/rbgirshick">@rbgirshick</a>. Researcher, Microsoft Research.</li>
+</ul>
+
+<h3 id="acknowledgements">Acknowledgements</h3>
+
+<p>The tutorial organizers would like to thank</p>
+
+<ul>
+  <li>the Caffe team, the <a href="http://bvlc.eecs.berkeley.edu/">Berkeley Vision and Learning Center</a>, and BVLC PI <a href="http://www.eecs.berkeley.edu/~trevor/">Trevor Darrell</a></li>
+  <li>our <a href="https://github.com/BVLC/caffe/graphs/contributors">open-source contributors</a> and the Caffe community as a whole</li>
+  <li>NVIDIA and the NVIDIA Academic program for collaboration and GPU donation</li>
+  <li>A9 and Amazon Web Services for a research grant in support of Caffe development and reproducible research</li>
+</ul>
+
+<p>for all the opportunities we have had in brewing deep nets in Caffe.</p>
+
+      </section>
+  </div>
+  </body>
+</html>
